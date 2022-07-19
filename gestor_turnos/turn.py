@@ -4,7 +4,7 @@ import datetime
 
 
 class Turn:
-    def __int__(self, date, cl, ve, motive):
+    def __int__(self, date, cl: client.Client, ve: vehicle.Vehicle, motive):
         self.date = date
         self.client = cl
         self.vehicle = ve
